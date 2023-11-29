@@ -1,0 +1,3 @@
+Ten kod odczyta zawartość pliku tekstowego i użyje gTTS do konwersji tekstu na mowę, zapisując wynik w pliku mp3. Następnie plik mp3 zostanie automatycznie otwarty i odtworzony w domyślnym odtwarzaczu multimedialnym systemu.
+
+Pamiętaj, że komenda do otwarcia pliku mp3 (os.system("start book.mp3")) może się różnić w zależności od systemu operacyjnego. Użyłem tu komendy dla systemu Windows. W przypadku innych systemów należy dostosować tę komendę (open dla macOS i xdg-open dla Linux).
